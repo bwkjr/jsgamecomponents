@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-const NEXT_PUBLIC_OPENAI_KEY = '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';
+const NEXT_PUBLIC_OPENAI_KEY = 'your-api-key-here';
 const getBackgroundStory = async () => {
     const response = await fetch('https://api.openai.com/v1/engines/davinci/completions', {
       method: 'POST',
